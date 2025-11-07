@@ -7,8 +7,8 @@ import {
   FaFacebook,
   FaArrowUp,
 } from "react-icons/fa";
-import logo from "../../assets/super-60logo.png";
-import ShareButton from "../Button/ShareButton";
+import logo from "../assets/Logo.png";
+
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +29,7 @@ const Footer = () => {
 
   return (
     <>
-      {/* Floating Vertical Social Icons */}
+      
       <div className="fixed z-40 flex-col hidden space-y-4 text-xl text-gray-900 md:flex top-1/3 left-5 dark:text-gray-400">
         <a
           href="https://instagram.com"
@@ -205,57 +205,14 @@ const Footer = () => {
         {/* Divider */}
         <div className="my-6 border-t border-gray-200 dark:border-gray-700" />
 
-        {/* Bottom Bar */}
-        {/* <div className="flex flex-col items-center justify-between px-6 py-4 mx-auto max-w-7xl sm:flex-row">
-          <p className="text-xs text-center text-gray-500 dark:text-gray-400 sm:text-left">
-            © {new Date().getFullYear()} Super60. All rights reserved.
-          </p>
-          <div className="flex gap-8 mt-4 text-xl sm:mt-0">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="transition-all duration-200 transform hover:text-orange-500 hover:scale-110"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="transition-all duration-200 transform hover:text-orange-500 hover:scale-110"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className="transition-all duration-200 transform hover:text-orange-500 hover:scale-110"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook"
-              className="transition-all duration-200 transform hover:text-orange-500 hover:scale-110"
-            >
-              <FaFacebook />
-            </a>
-          </div>
-        </div> */}
+      
 
         <div className="flex flex-col items-center justify-between px-6 py-4 mx-auto max-w-7xl sm:flex-row ">
   <p className="mb-8 text-xs text-center text-gray-500 dark:text-gray-400 sm:text-left cursor-target">
     © {new Date().getFullYear()} Super60. All rights reserved.
   </p>
 
-  <ShareButton className="hidden md:flex"  label="Visit" />
+
 </div>
 
 

@@ -7,11 +7,9 @@ import logo from "../assets/Logo.png";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [userRole, setUserRole] = useState(null); // "admin", "student", or "coordinator"
-
-  // Mock: pretend user logged in (frontend demo only)
+  const [userRole, setUserRole] = useState(null); 
   useEffect(() => {
-    // Example: Simulate a logged-in user (you can remove/change this)
+   
     setUserRole("student");
   }, []);
 
@@ -33,7 +31,7 @@ const Navbar = () => {
         }`}
     >
       <div className="flex items-center justify-between px-6 mx-auto max-w-7xl">
-        {/* Logo */}
+        
         <Link to="/" className="flex items-center space-x-2">
           <img src={logo} alt="Logo" className="h-10 w-auto" />
         </Link>
@@ -56,7 +54,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Right Side */}
+      
         <div className="flex items-center space-x-4">
           {/* Coordinator Icon */}
           {userRole === "coordinator" && (
@@ -68,7 +66,7 @@ const Navbar = () => {
             </NavLink>
           )}
 
-          {/* Admin/Student Icon */}
+      
           {userRole && (
             <NavLink
               to={
