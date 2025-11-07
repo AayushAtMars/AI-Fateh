@@ -1,8 +1,8 @@
 
 
 import { useState, useEffect, useRef } from "react";
-import HeroBg from "./backgrounds/herobg";
-import JoinUsButtonHero from "./JoinUsButtonHero";
+import HeroBg from "./HeroBg";
+import JoinUsButtonHero from "./JoinUsButton";
 
 const Hero = () => {
   const [bgActive, setBgActive] = useState(false);

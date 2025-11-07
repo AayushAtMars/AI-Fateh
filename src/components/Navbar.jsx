@@ -2,11 +2,10 @@ import { useState, useContext, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { FaUserCircle,FaUsersCog } from "react-icons/fa";
-import Sidebar from "./Sidebar";
-import logo from "../../assets/super-60logo.png";
-import AuthContext from "../../context/AuthContext";
+
+import logo from "../assets/Logo.png";
 import axios from "axios";
-import BACKEND_URL from "../../utils/axiosConfig";
+// import BACKEND_URL from "../../utils/axiosConfig";
 
 const Navbar = () => {
   // === Configurations ===
