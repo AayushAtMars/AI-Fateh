@@ -1,4 +1,4 @@
-import BlurredInfiniteSlider from "./BlurredInfiniteSlider";
+import BlurredInfiniteSlider from "./BlurInfiniteSlider";
 
 const LOGOS = [
                 { src: "https://logos-download.com/wp-content/uploads/2016/07/Jio_logo.png", alt: "OpenAI Logo", height: 44 },
