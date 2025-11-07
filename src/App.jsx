@@ -7,7 +7,7 @@ import WhatWeDo from './components/what_we_do'
 import Footer from './components/Footer'
 import LogoCloudDemo from './components/LogoCloudDemo'
 import MissionVision from './components/MissionVision'
-
+import Achivement from './components/Achivement'
 
 
 const App = () => {
@@ -19,6 +19,7 @@ const App = () => {
       <AboutSection/>
       <MissionVision/>
       <WhatWeDo/>
+      <Achivement/>
       <LogoCloudDemo/>
       <Footer/>
       

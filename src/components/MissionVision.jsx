@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const MissionVision = () => {
   const missionPoints = [
   {
